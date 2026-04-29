@@ -13,15 +13,17 @@
   gap: var(--base-unit);
   align-items: center;
 }
-
 .features .icon {
   width: calc(var(--base-unit) * 4);
   height: calc(var(--base-unit) * 4);
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--medium-blue);
   border-radius: 50%;
   box-sizing: border-box;
-  border: 1px solid var(--medium-blue);
+  color: var(--medium-blue);
+}
+.features .icon span {
   font-size: 36px;
 }
