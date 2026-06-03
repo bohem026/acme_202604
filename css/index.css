@@ -26,11 +26,10 @@
 .features .icon span {
   font-size: 36px;
 }
-
 .testimonial li {
   font-weight: 300;
   color: var(--light-blue);
-  text-align: center;
+  /* text-align: center; */
 }
 .testimonial blockquote {
   width: 840px;

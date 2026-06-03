@@ -11,6 +11,9 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/about.css" />
   </head>
@@ -55,72 +58,80 @@
           <p class="text-body-m-plus">Find the answers to the most commonly asked questions</p>
         </div>
         <ul class="qnalist">
-          <li class="active">
-            <h4 class="question">
-              Is this a free platform?
-              <span class="material-icons">arrow_drop_down</span>
-            </h4>
-            <div class="answer">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
-                perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
-                inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
-                deleniti.
-              </p>
-            </div>
+          <li>
+            <details>
+              <summary class="question">
+                <span>Is this a free platform?</span>
+                <span class="material-icons">arrow_drop_down</span>
+              </summary>
+              <div class="answer">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
+                  perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
+                  inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
+                  deleniti.
+                </p>
+              </div>
+            </details>
           </li>
           <li>
-            <h4 class="question">
-              Is this a free platform?
-              <span class="material-icons">arrow_drop_down</span>
-            </h4>
-            <div class="answer">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
-                perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
-                inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
-                deleniti.
-              </p>
-            </div>
+            <details>
+              <summary class="question">
+                <span>Is this a free platform?</span>
+                <span class="material-icons">arrow_drop_down</span>
+              </summary>
+              <div class="answer">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
+                  perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
+                  inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
+                  deleniti.
+                </p>
+              </div>
+            </details>
           </li>
           <li>
-            <h4 class="question">
-              Is this a free platform?
-              <span class="material-icons">arrow_drop_down</span>
-            </h4>
-            <div class="answer">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
-                perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
-                inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
-                deleniti.
-              </p>
-            </div>
+            <details>
+              <summary class="question">
+                <span>Is this a free platform?</span>
+                <span class="material-icons">arrow_drop_down</span>
+              </summary>
+              <div class="answer">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
+                  perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
+                  inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
+                  deleniti.
+                </p>
+              </div>
+            </details>
           </li>
           <li>
-            <h4 class="question">
-              Is this a free platform?
-              <span class="material-icons">arrow_drop_down</span>
-            </h4>
-            <div class="answer">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
-                perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
-                inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
-                deleniti.
-              </p>
-            </div>
+            <details>
+              <summary class="question">
+                <span>Is this a free platform?</span>
+                <span class="material-icons">arrow_drop_down</span>
+              </summary>
+              <div class="answer">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam dolorem
+                  perspiciatis! Delectus soluta animi quaerat ipsum labore, laboriosam mollitia
+                  inventore commodi blanditiis molestiae asperiores dolorem expedita et tempore
+                  deleniti.
+                </p>
+              </div>
+            </details>
           </li>
         </ul>
       </section>
       <hr class="container" />
-      <section class="portfolio slidewrapper container inner-pd">
+      <section class="swiper slidewrapper portfolio container inner-pd">
         <div class="header d-flex flex-column g-1">
           <h3 class="text-body-l">Example Portfolios</h3>
           <p class="text-body-m-plus">Here's some examples of what you can create with our app.</p>
         </div>
-        <ul class="slidecontainer">
-          <li>
+        <ul class="swiper-wrapper slidecontainer">
+          <li class="swiper-slide">
             <img src="images/portfolio_01.jpg" alt="portfolio_01" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem consequatur
@@ -129,7 +140,7 @@
             </p>
             <a href="" class="text-link">Link to portfolio &rarr;</a>
           </li>
-          <li>
+          <li class="swiper-slide">
             <img src="images/portfolio_01.jpg" alt="portfolio_01" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem consequatur
@@ -138,7 +149,7 @@
             </p>
             <a href="" class="text-link">Link to portfolio &rarr;</a>
           </li>
-          <li>
+          <li class="swiper-slide">
             <img src="images/portfolio_01.jpg" alt="portfolio_01" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem consequatur
@@ -154,6 +165,7 @@
         <button type="button" class="button next">
           <span class="material-icons">chevron_right</span>
         </button>
+        <div class="swiper-pagination"></div>
       </section>
       <section class="cta inner-pd d-flex flex-column align-items-center g-2">
         <div class="content d-flex flex-column g-1">
@@ -167,5 +179,7 @@
       <p>&copy; 2014. All rights reserved. Questions?</p>
       <p>Email us at <a href="#" class="text-link">office@product.com</a></p>
     </footer>
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
   </body>
 </html>
